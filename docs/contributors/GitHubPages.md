@@ -85,7 +85,7 @@ To customize these URLs for your deployment, you can:
 2. Modify the `ci/build-static.sh` script to use your own WISP and Bare server URLs
 3. Push to the `main` branch
 
-## Manual Deployment (for testing)
+## Local Testing
 
 To test the deployment locally before pushing:
 

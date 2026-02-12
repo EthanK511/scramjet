@@ -1,6 +1,6 @@
 # Quick Start: Deploy to GitHub Pages
 
-Get your Scramjet fork deployed to GitHub Pages in 3 simple steps!
+Get your Scramjet fork deployed to GitHub Pages in 4 simple steps!
 
 ## Step 1: Enable GitHub Pages
 

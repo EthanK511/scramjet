@@ -43,7 +43,8 @@ To enable GitHub Pages for your fork:
 3. Push to the `main` branch to trigger deployment
 4. Access your site at `https://<your-username>.github.io/scramjet/`
 
-For detailed setup instructions, see [GitHub Pages Deployment Guide](docs/contributors/GitHubPages.md).
+**Quick Start**: See the [3-step deployment guide](docs/contributors/QuickStart-GitHubPages.md)  
+**Detailed Guide**: [GitHub Pages Deployment Guide](docs/contributors/GitHubPages.md)
 
 ## Development
 

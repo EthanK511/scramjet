@@ -30,6 +30,22 @@ Ensure you are not hosting on a datacenter IP for CAPTCHAs to work reliably alon
 
 An easy to deploy version of Scramjet can be found at [Scramjet-App](https://github.com/MercuryWorkshop/scramjet-app).
 
+## Deployment
+
+### GitHub Pages
+
+This repository includes automated GitHub Pages deployment via GitHub Actions. When you push to the `main` branch, the workflow automatically builds and deploys the Scramjet demo and documentation.
+
+To enable GitHub Pages for your fork:
+
+1. Go to your repository Settings → Pages
+2. Set **Source** to "GitHub Actions"
+3. Push to the `main` branch to trigger deployment
+4. Access your site at `https://<your-username>.github.io/scramjet/`
+
+**Quick Start**: See the [4-step deployment guide](docs/contributors/QuickStart-GitHubPages.md)  
+**Detailed Guide**: [GitHub Pages Deployment Guide](docs/contributors/GitHubPages.md)
+
 ## Development
 
 ### Dependencies

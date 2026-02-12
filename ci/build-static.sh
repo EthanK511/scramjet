@@ -4,6 +4,9 @@ DST=staticbuild
 rm -rf $DST
 mkdir -p $DST
 
+# Disable Jekyll processing on GitHub Pages
+touch $DST/.nojekyll
+
 cp -r node_modules/@mercuryworkshop/bare-mux/dist/ $DST/baremux
 cp -r node_modules/@mercuryworkshop/epoxy-transport/dist/ $DST/epoxy
 cp -r node_modules/@mercuryworkshop/libcurl-transport/dist/ $DST/libcurl

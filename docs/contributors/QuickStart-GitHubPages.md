@@ -80,6 +80,7 @@ Subsequent deployments are faster (2-3 minutes) thanks to caching!
 ## Need Help?
 
 - Read the [full deployment guide](GitHubPages.md)
+- Read the [detailed step-by-step instructions](DEPLOYMENT_STEPS.md)
 - Check the [Actions logs](../../actions) for error details
 - Review the [main workflow file](../../.github/workflows/main.yml)
 

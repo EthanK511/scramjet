@@ -12,6 +12,21 @@ This guide explains how to deploy Scramjet to GitHub Pages for your fork.
 
 The repository includes a GitHub Actions workflow (`.github/workflows/main.yml`) that automatically deploys to GitHub Pages when code is pushed to the `main` branch.
 
+### Manual Deployment
+
+If you want to trigger a deployment manually (e.g., from a feature branch for testing), you can use the manual deployment workflow:
+
+1. Go to the **Actions** tab in your repository
+2. Select **Deploy to GitHub Pages (Manual)** from the workflows list
+3. Click **Run workflow**
+4. Optionally specify a branch (defaults to `main`)
+5. Click **Run workflow** to start the deployment
+
+This is useful for:
+- Testing changes before merging to main
+- Deploying from a specific branch
+- Re-deploying without making new commits
+
 ### What Gets Deployed
 
 The GitHub Pages site includes:
